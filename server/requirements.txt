@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+# Optional - only needed to use a real LLM instead of the offline demo model:
+openai>=1.30
